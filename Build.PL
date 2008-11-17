@@ -22,7 +22,7 @@ my $builder = Module::Build->new(
         'Test::More' => 0,
     },
     script_files => [qw(scripts/fv2xml scripts/xml2fv scripts/hash2fv)],
-    create_makefile_pl => 'passthrough',
+    create_makefile_pl => 'traditional',
     #add_to_cleanup      => [ 'Tie-FieldVals-*' ],
 );
 

@@ -12,7 +12,7 @@ if (-f 'test_hash.fv') {
 }
 
 # now test the script
-my $command = "perl -I lib scripts/hash2fv t/test_ARCHIVE_DB.pl test_hash.fv";
+my $command = "$^X -I lib scripts/hash2fv t/test_ARCHIVE_DB.pl test_hash.fv";
 $result = system($command);
 ok($result == 0, 'hash2fv generated FieldVals data from t/test_ARCHIVE_DB.pl');
 

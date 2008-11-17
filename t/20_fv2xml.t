@@ -12,7 +12,7 @@ if (-f 'test1.xml') {
 }
 
 # now test the script
-my $command = "perl -I lib scripts/fv2xml t/test1.data test1.xml";
+my $command = "$^X -I lib scripts/fv2xml t/test1.data test1.xml";
 $result = system($command);
 ok($result == 0, 'fv2xml generated XML from test1.data');
 
