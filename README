@@ -6,7 +6,7 @@ Tie::FieldVals - an array tie for a file of enhanced Field:Value data
 
 ==== VERSION ====
 
-This describes version ``0.62'' of Tie::FieldVals.
+This describes version 0.6201 of Tie::FieldVals.
 
 
 ==== DESCRIPTION ====
@@ -124,7 +124,7 @@ the PERL5LIB variable to add /home/fred/perl/lib
 
 ==== COPYRIGHT AND LICENCE ====
 
-Copyright (c) 2004 by Kathryn Andersen
+Copyright (c) 2004-2008 by Kathryn Andersen
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
