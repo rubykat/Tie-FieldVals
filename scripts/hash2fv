@@ -10,11 +10,11 @@ hash2fv - convert a hash db file into Tie::FieldVals data.
 
 =head1 VERSION
 
-This describes version B<0.62> of hash2fv.
+This describes version B<0.6201> of hash2fv.
 
 =cut
 
-our $VERSION = '0.62';
+our $VERSION = '0.6201';
 
 =head1 SYNOPSIS
 
