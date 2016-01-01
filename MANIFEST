@@ -5,10 +5,10 @@ lib/Tie/FieldVals/Join.pm
 lib/Tie/FieldVals/Row.pm
 lib/Tie/FieldVals/Row/Join.pm
 lib/Tie/FieldVals/Select.pm
-Makefile.PL
 MANIFEST
 MANIFEST.SKIP
 META.yml			# Will be created by "make dist"
+META.json			# Will be created by "make dist"
 README
 scripts/fv2xml
 scripts/hash2fv

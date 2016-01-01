@@ -22,8 +22,13 @@ my $builder = Module::Build->new(
         'Test::More' => 0,
     },
     script_files => [qw(scripts/fv2xml scripts/xml2fv scripts/hash2fv)],
-    create_makefile_pl => 'traditional',
     #add_to_cleanup      => [ 'Tie-FieldVals-*' ],
+    meta_add => {
+        resources  => {
+            repository  => 'git://github.com/rubykat/Tie-FieldVals.git',
+            homepage  => 'http://github.com/rubykat/Tie-FieldVals',
+        },
+    },
 );
 
 $builder->create_build_script();
