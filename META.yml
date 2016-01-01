@@ -16,19 +16,19 @@ name: Tie-FieldVals
 provides:
   Tie::FieldVals:
     file: lib/Tie/FieldVals.pm
-    version: '0.6202'
+    version: '0.6203'
   Tie::FieldVals::Join:
     file: lib/Tie/FieldVals/Join.pm
-    version: '0.6202'
+    version: '0.6203'
   Tie::FieldVals::Row:
     file: lib/Tie/FieldVals/Row.pm
-    version: '0.6202'
+    version: '0.6203'
   Tie::FieldVals::Row::Join:
     file: lib/Tie/FieldVals/Row/Join.pm
-    version: '0.6202'
+    version: '0.6203'
   Tie::FieldVals::Select:
     file: lib/Tie/FieldVals/Select.pm
-    version: '0.6202'
+    version: '0.6203'
 requires:
   Carp: '0'
   Data::Dumper: '0'
@@ -42,4 +42,4 @@ requires:
 resources:
   homepage: http://github.com/rubykat/Tie-FieldVals
   repository: git://github.com/rubykat/Tie-FieldVals.git
-version: '0.6202'
+version: '0.6203'
